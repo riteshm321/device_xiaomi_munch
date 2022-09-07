@@ -26,3 +26,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
    PRIVATE_BUILD_DESC="missi-user 12 SKQ1.211006.001 V13.0.4.0.SLMMIXM release-keys"
 
 BUILD_FINGERPRINT := POCO/munch_global/munch:12/RKQ1.200826.002/V13.0.4.0.SLMMIXM:user/release-keys
+
+# Specify Gapps Build
+WITH_GAPPS := true
