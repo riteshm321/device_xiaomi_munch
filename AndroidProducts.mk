@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021 The P404 Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_munch.mk
+    $(LOCAL_DIR)/p404_munch.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_munch-user \
-    arrow_munch-userdebug \
-    arrow_munch-eng
+    p404_munch-user \
+    p404_munch-userdebug \
+    p404_munch-eng
