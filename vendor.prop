@@ -29,6 +29,7 @@ ro.vendor.audio.spk.clean=true
 ro.vendor.audio.spk.stereo=true
 ro.vendor.audio.voice.volume.boost=none
 vendor.audio.lowpower=true
+ro.vendor.audio.support.sound.id=true
 
 # Refresh Rate
 ro.surface_flinger.set_display_power_timer_ms=1000
