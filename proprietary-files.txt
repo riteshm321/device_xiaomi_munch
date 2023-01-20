@@ -452,7 +452,10 @@ vendor/lib/libstagefright_soft_ddpdec.so
 vendor/lib/libstagefrightdolby.so
 vendor/lib64/libstagefright_soft_ac4dec.so
 vendor/lib64/libstagefright_soft_ddpdec.so
+vendor/lib64/libstagefright_softomx.so
+vendor/lib/libstagefright_softomx_plugin.so
 vendor/lib64/libstagefrightdolby.so
+vendor/lib64/libstagefrighthw.so
 
 # Dolby App (OnePlus)
 system_ext/etc/sysconfig/config-com.dolby.daxappui.xml|fce084b5ea52db53d25a7bbf64d8c7ce
