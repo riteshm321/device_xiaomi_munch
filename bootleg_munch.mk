@@ -14,8 +14,6 @@ $(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 # Inherit from device makefile
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
-DEVICE_MAINTAINER := Ritzzz
-
 PRODUCT_NAME := bootleg_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
@@ -30,3 +28,14 @@ BUILD_FINGERPRINT := Redmi/munch/munch:13/RKQ1.211001.001/V14.0.1.0.TLMMIXM:user
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 WITH_GAPPS := true
+BOOTLEGGERS_BUILD_TYPE := Shishufied
+DEVICE_MAINTAINERS := "Ritzzz"
+
+
+# ADB on boot
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=diag,adb \
+    sys.usb.config=diag,adb \
+    ro.adb.secure=0 \
+    ro.secure=0 \
+    ro.debuggable=1
